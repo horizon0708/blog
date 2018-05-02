@@ -5,7 +5,6 @@ import 'typeface-montserrat'
 import 'typeface-merriweather'
 
 import profilePic from './profile-pic.jpg'
-import { rhythm } from '../utils/typography'
 
 class Bio extends React.Component {
   render() {
@@ -13,25 +12,27 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          margin: '2rem 0'
         }}
       >
         <img
+          className="profile-pic"
           src={profilePic}
-          alt={`Kyle Mathews`}
+          alt={`James Kim`}
           style={{
-            marginRight: rhythm(1 / 2),
+            marginRight: '1rem',
             marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
+            width: '4rem',
+            height: '4rem',
           }}
         />
-        <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
-            You should follow him on Twitter
+        <p className="content">
+          James Kim - a junior web developer living in Wellington.{' '}
+            Say hi to me on{` `}
+          <a href="https://twitter.com/LLHorizon">
+            Twitter
           </a>
+          !
         </p>
       </div>
     )
