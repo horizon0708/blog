@@ -96,7 +96,7 @@ class Posts extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <h1 className="is-1 title">Posts</h1>
+        <h1 className="is-1 title">Posts.</h1>
         {this.renderCategories()}
         {this.renderTags()}
         <StatusText

@@ -28,8 +28,10 @@ class Template extends React.Component {
       <div>
         <CustomNavbar />
         <Container style={{maxWidth: '768px', marginTop: "13vh", marginBottom: "13vh"}}>
+          <div className="mobile-margin">
           {header}
           {children()}
+          </div>
         </Container>
       </div>
     )

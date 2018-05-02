@@ -11,7 +11,7 @@ class About extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <h1 className="is-1 title">About</h1>
+        <h1 className="is-1 title">About.</h1>
         <BlogDescription/>
         This blog is built with GatsbyJS. Check out the source on <a href="https://github.com/horizon0708/blog">github</a>.
       </div>
