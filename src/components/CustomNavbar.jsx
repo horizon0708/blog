@@ -55,8 +55,6 @@ export default class CustomNavbar extends React.Component {
           <Link to="/posts">Posts</Link>
           </div>
           <div className="navbar-footer">
-          <p>            github</p>
-            <i className="fab fa-github"></i>
           </div>
         </MobileNav>
       </Navbar>
